@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77bbaab4c6a41b94ca89c1d19c210328, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  _maxClip: 9
+  _rateOfFire: 5
+  _maxDistance: 100
+  _isAutomatic: 0
+  _weapon: {fileID: 1375090684829650, guid: 6a6b35cc4500f264d86e660d0f975977, type: 3}
+  _relativePosition: {x: 0.277, y: -0.239, z: 0.37}
+  _damageInfo: {fileID: 11400000, guid: 658e089e7ab6bba4d831edaa18faf6e2, type: 2}
