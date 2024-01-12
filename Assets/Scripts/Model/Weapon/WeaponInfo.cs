@@ -5,8 +5,7 @@ public class WeaponInfo : ScriptableObject
 {
 
     [SerializeField] private int _maxClip;
-    [SerializeField] private float _rateOfFire, _maxDistance;
-    [SerializeField] private bool _isAutomatic;
+    [SerializeField, Range(0.1f, 2000)] private float _rateOfFire, _maxDistance;
     [SerializeField] private GameObject _weapon;
     [SerializeField] private Vector3 _relativePosition = new(0.277f, -0.239f, 0.37f);
     [SerializeField] private DamageInfo _damageInfo;
@@ -16,5 +15,4 @@ public class WeaponInfo : ScriptableObject
     public int MaxClip { get { return _maxClip; } }
     public float RateOfFire { get { return _rateOfFire; } }
     public float MaxDistance { get { return _maxDistance; } }
-    public bool IsAutomatic { get { return _isAutomatic; } }
 }
