@@ -4,7 +4,7 @@ using UnityEngine;
 public class WeaponInfo : ScriptableObject
 {
 
-    [SerializeField] private int _maxClip;
+    [SerializeField, Range(1, 1000)] private int _maxClip;
     [SerializeField, Range(0.1f, 2000)] private float _rateOfFire, _maxDistance;
     [SerializeField] private GameObject _weapon;
     [SerializeField] private Vector3 _relativePosition = new(0.277f, -0.239f, 0.37f);
